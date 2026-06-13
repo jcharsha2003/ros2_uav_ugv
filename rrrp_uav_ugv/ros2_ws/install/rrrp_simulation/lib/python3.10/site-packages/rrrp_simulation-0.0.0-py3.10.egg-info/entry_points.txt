@@ -1,0 +1,4 @@
+[console_scripts]
+rrrp_node = rrrp_simulation.rrrp_node:main
+uav_a_star_flyer = rrrp_simulation.uav_a_star_flyer:main
+

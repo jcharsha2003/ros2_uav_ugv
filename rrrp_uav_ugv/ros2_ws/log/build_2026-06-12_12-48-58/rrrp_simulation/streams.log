@@ -1,0 +1,28 @@
+[0.765s] Invoking command in '/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation': PYTHONPATH=/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build --no-deps symlink_data
+[0.987s] running develop
+[1.070s] running egg_info
+[1.070s] creating rrrp_simulation.egg-info
+[1.071s] writing rrrp_simulation.egg-info/PKG-INFO
+[1.071s] writing dependency_links to rrrp_simulation.egg-info/dependency_links.txt
+[1.071s] writing entry points to rrrp_simulation.egg-info/entry_points.txt
+[1.071s] writing requirements to rrrp_simulation.egg-info/requires.txt
+[1.071s] writing top-level names to rrrp_simulation.egg-info/top_level.txt
+[1.071s] writing manifest file 'rrrp_simulation.egg-info/SOURCES.txt'
+[1.072s] reading manifest file 'rrrp_simulation.egg-info/SOURCES.txt'
+[1.073s] writing manifest file 'rrrp_simulation.egg-info/SOURCES.txt'
+[1.074s] running build_ext
+[1.076s] Creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp-simulation.egg-link (link to .)
+[1.078s] 
+[1.078s] Installed /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation
+[1.078s] running symlink_data
+[1.078s] creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/ament_index
+[1.078s] creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/ament_index/resource_index
+[1.078s] creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/ament_index/resource_index/packages
+[1.078s] symbolically linking /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/resource/rrrp_simulation -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/ament_index/resource_index/packages
+[1.078s] symbolically linking /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/package.xml -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation
+[1.078s] creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/launch
+[1.078s] symbolically linking /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/launch/simulation.launch.py -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/launch
+[1.078s] creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/worlds
+[1.078s] symbolically linking /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/worlds/arena_100x100.world -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/worlds
+[1.078s] creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/rviz
+[1.105s] Invoked command in '/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation' returned '0': PYTHONPATH=/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build --no-deps symlink_data

@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating rrrp_simulation.egg-info
+writing rrrp_simulation.egg-info/PKG-INFO
+writing dependency_links to rrrp_simulation.egg-info/dependency_links.txt
+writing entry points to rrrp_simulation.egg-info/entry_points.txt
+writing requirements to rrrp_simulation.egg-info/requires.txt
+writing top-level names to rrrp_simulation.egg-info/top_level.txt
+writing manifest file 'rrrp_simulation.egg-info/SOURCES.txt'
+reading manifest file 'rrrp_simulation.egg-info/SOURCES.txt'
+writing manifest file 'rrrp_simulation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp-simulation.egg-link (link to .)
+
+Installed /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation
+running symlink_data
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/ament_index
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/ament_index/resource_index
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/ament_index/resource_index/packages
+symbolically linking /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/resource/rrrp_simulation -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/ament_index/resource_index/packages
+symbolically linking /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/package.xml -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/launch
+symbolically linking /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/launch/simulation.launch.py -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/launch
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/worlds
+symbolically linking /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/worlds/arena_100x100.world -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/worlds
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/rviz

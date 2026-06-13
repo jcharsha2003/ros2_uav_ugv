@@ -1,0 +1,38 @@
+running develop
+Removing /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp-simulation.egg-link (link to .)
+running egg_info
+writing ../../build/rrrp_simulation/rrrp_simulation.egg-info/PKG-INFO
+writing dependency_links to ../../build/rrrp_simulation/rrrp_simulation.egg-info/dependency_links.txt
+writing entry points to ../../build/rrrp_simulation/rrrp_simulation.egg-info/entry_points.txt
+writing requirements to ../../build/rrrp_simulation/rrrp_simulation.egg-info/requires.txt
+writing top-level names to ../../build/rrrp_simulation/rrrp_simulation.egg-info/top_level.txt
+reading manifest file '../../build/rrrp_simulation/rrrp_simulation.egg-info/SOURCES.txt'
+writing manifest file '../../build/rrrp_simulation/rrrp_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build/lib
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build/lib/rrrp_simulation
+copying rrrp_simulation/rrrp_node.py -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build/lib/rrrp_simulation
+copying rrrp_simulation/uav_a_star_flyer.py -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build/lib/rrrp_simulation
+copying rrrp_simulation/__init__.py -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build/lib/rrrp_simulation
+running install
+running install_lib
+creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp_simulation
+copying /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build/lib/rrrp_simulation/rrrp_node.py -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp_simulation
+copying /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build/lib/rrrp_simulation/uav_a_star_flyer.py -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp_simulation
+copying /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build/lib/rrrp_simulation/__init__.py -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp_simulation
+byte-compiling /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp_simulation/rrrp_node.py to rrrp_node.cpython-310.pyc
+byte-compiling /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp_simulation/uav_a_star_flyer.py to uav_a_star_flyer.cpython-310.pyc
+byte-compiling /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp_simulation/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/rrrp_simulation -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/ament_index/resource_index/packages
+copying package.xml -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation
+copying launch/simulation.launch.py -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/launch
+copying worlds/arena_100x100.world -> /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/share/rrrp_simulation/worlds
+running install_egg_info
+Copying ../../build/rrrp_simulation/rrrp_simulation.egg-info to /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp_simulation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing rrrp_node script to /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/rrrp_simulation
+Installing uav_a_star_flyer script to /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/rrrp_simulation
+writing list of installed files to '/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/install.log'

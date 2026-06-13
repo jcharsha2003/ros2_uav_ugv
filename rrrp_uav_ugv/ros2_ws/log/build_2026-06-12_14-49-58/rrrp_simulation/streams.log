@@ -1,0 +1,18 @@
+[0.572s] Invoking command in '/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation': PYTHONPATH=/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build --no-deps symlink_data
+[0.836s] running develop
+[1.010s] running egg_info
+[1.010s] writing rrrp_simulation.egg-info/PKG-INFO
+[1.010s] writing dependency_links to rrrp_simulation.egg-info/dependency_links.txt
+[1.012s] writing entry points to rrrp_simulation.egg-info/entry_points.txt
+[1.012s] writing requirements to rrrp_simulation.egg-info/requires.txt
+[1.012s] writing top-level names to rrrp_simulation.egg-info/top_level.txt
+[1.012s] reading manifest file 'rrrp_simulation.egg-info/SOURCES.txt'
+[1.014s] writing manifest file 'rrrp_simulation.egg-info/SOURCES.txt'
+[1.015s] running build_ext
+[1.018s] Creating /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages/rrrp-simulation.egg-link (link to .)
+[1.018s] Installing rrrp_node script to /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/rrrp_simulation
+[1.018s] Installing uav_a_star_flyer script to /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/rrrp_simulation
+[1.019s] 
+[1.019s] Installed /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation
+[1.019s] running symlink_data
+[1.066s] Invoked command in '/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation' returned '0': PYTHONPATH=/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/install/rrrp_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/iiitd/Desktop/ros2/BATTERY/rrrp_uav_ugv/ros2_ws/build/rrrp_simulation/build --no-deps symlink_data

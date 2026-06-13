@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="arena_100x100">
+    <gravity>0 0 -9.81</gravity>
+    <wind>
+      <linear_velocity>0.5 0.0 0.0</linear_velocity>
+    </wind>
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"></plugin>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"></plugin>
+    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"></plugin>
+    <plugin filename="gz-sim-wind-effects-system" name="gz::sim::systems::WindEffects">
+      <force_approximation_scaling_factor>1</force_approximation_scaling_factor>
+    </plugin>
+
+    <!-- Standard Sun -->
+    <light type="directional" name="directional_light_1">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- 100x100m Ground Plane -->
+    <model name="ground_plane">
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.2 0.4 0.2 1</ambient>
+            <diffuse>0.2 0.4 0.2 1</diffuse>
+            <specular>0.0 0.0 0.0 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+
+
+    <!-- Predefined Standard Trees -->
+    <include>
+      <name>pine_tree_1</name>
+      <pose>35 35 0 0 0 0</pose>
+      <uri>model://pine_tree</uri>
+    </include>
+
+    <include>
+      <name>pine_tree_2</name>
+      <pose>-35 15 0 0 0 0</pose>
+      <uri>model://pine_tree</uri>
+    </include>
+
+    <include>
+      <name>oak_tree_1</name>
+      <pose>15 -35 0 0 0 0</pose>
+      <uri>model://oak_tree</uri>
+    </include>
+
+    <include>
+      <name>oak_tree_2</name>
+      <pose>-30 30 0 0 0 0</pose>
+      <uri>model://oak_tree</uri>
+    </include>
+
+
+
+    <!-- Predefined UAV Model -->
+    <include>
+      <name>uav_1</name>
+      <pose>0 0 0.5 0 0 0</pose>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/X3 UAV</uri>
+      <!-- Publish Ground Truth Odometry -->
+      <plugin filename="libignition-gazebo-odometry-publisher-system.so" name="ignition::gazebo::systems::OdometryPublisher">
+        <odom_frame>odom</odom_frame>
+        <robot_base_frame>uav_1</robot_base_frame>
+        <odom_topic>/model/uav_1/odometry</odom_topic>
+        <dimensions>3</dimensions>
+      </plugin>
+      <!-- Enable Velocity Control for Flight -->
+      <plugin filename="libignition-gazebo-velocity-control-system.so" name="ignition::gazebo::systems::VelocityControl">
+        <initial_linear>0 0 0</initial_linear>
+        <initial_angular>0 0 0</initial_angular>
+      </plugin>
+      <!-- Spin Rotors Visually -->
+      <plugin filename="libignition-gazebo-joint-controller-system.so" name="ignition::gazebo::systems::JointController">
+        <joint_name>X3/rotor_0_joint</joint_name>
+        <use_force_commands>false</use_force_commands>
+      </plugin>
+      <plugin filename="libignition-gazebo-joint-controller-system.so" name="ignition::gazebo::systems::JointController">
+        <joint_name>X3/rotor_1_joint</joint_name>
+        <use_force_commands>false</use_force_commands>
+      </plugin>
+      <plugin filename="libignition-gazebo-joint-controller-system.so" name="ignition::gazebo::systems::JointController">
+        <joint_name>X3/rotor_2_joint</joint_name>
+        <use_force_commands>false</use_force_commands>
+      </plugin>
+      <plugin filename="libignition-gazebo-joint-controller-system.so" name="ignition::gazebo::systems::JointController">
+        <joint_name>X3/rotor_3_joint</joint_name>
+        <use_force_commands>false</use_force_commands>
+      </plugin>
+    </include>
+
+    <!-- Predefined UGV Model -->
+    <include>
+      <name>ugv_1</name>
+      <pose>5.0 0 0.5 0 0 0</pose>
+      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/X1 Config 1</uri>
+      <!-- Publish Ground Truth Odometry -->
+      <plugin filename="libignition-gazebo-odometry-publisher-system.so" name="ignition::gazebo::systems::OdometryPublisher">
+        <odom_frame>odom</odom_frame>
+        <robot_base_frame>ugv_1</robot_base_frame>
+        <odom_topic>/model/ugv_1/odometry</odom_topic>
+        <dimensions>3</dimensions>
+      </plugin>
+      <!-- Differential Drive for physical wheels -->
+      <plugin filename="libignition-gazebo-diff-drive-system.so" name="ignition::gazebo::systems::DiffDrive">
+        <left_joint>front_left_wheel_joint</left_joint>
+        <left_joint>rear_left_wheel_joint</left_joint>
+        <right_joint>front_right_wheel_joint</right_joint>
+        <right_joint>rear_right_wheel_joint</right_joint>
+        <wheel_separation>0.5709</wheel_separation>
+        <wheel_radius>0.1651</wheel_radius>
+        <odom_publish_frequency>50</odom_publish_frequency>
+        <topic>/model/ugv_1/cmd_vel</topic>
+      </plugin>
+    </include>
+
+  </world>
+</sdf>
